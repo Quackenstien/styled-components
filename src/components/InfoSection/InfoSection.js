@@ -8,9 +8,10 @@ import {
   TopLine,
   Heading,
   Subtitle,
+  Img,
+  ImgWrapper,
 } from "./InfoSection.elements";
 import { Container, Button } from "../../globalStyles";
-import { homeObjOne } from "../../pages/HomePage/Data";
 
 const InfoSection = ({
   lightBg,
@@ -23,6 +24,9 @@ const InfoSection = ({
   headline,
   topLine,
   primary,
+  img,
+  alt,
+  start,
 }) => {
   return (
     <>
@@ -40,6 +44,11 @@ const InfoSection = ({
                   </Button>
                 </Link>
               </TextWrapper>
+            </InfoColumn>
+            <InfoColumn>
+              <ImgWrapper start={start}>
+                <Img src={img} alt={alt} />
+              </ImgWrapper>
             </InfoColumn>
           </InfoRow>
         </Container>
