@@ -7,12 +7,13 @@ export const homeObjOne = {
   lightText: true,
   buttonLabel: "Get Started",
   description:
-    "We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.",
-  headline: "Lead Generation Specialist for Online Businesses.",
-  topLine: "Marketing Agency",
+    "Full Stack Web Developer with a heavy emphasis on Front End Development. Dedicated to learning and improving myself as a whole. Co-workers and peers say that I am hardworking and great at problem solving. Quick learner of new technologies and adaptive personality. ",
+  headline: "Just a boy from the desert.",
+  topLine: "About Me",
   img: require("../../images/codeimg1.png"),
   alt: "Image",
   start: "",
+  link: "services",
 };
 
 export const homeObjTwo = {

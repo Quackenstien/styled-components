@@ -1,20 +1,3 @@
-export const homeObjOne = {
-  primary: true,
-  lightBg: false,
-  imgStart: "",
-  lightTopLine: true,
-  lightTextDesc: true,
-  lightText: true,
-  buttonLabel: "Get Started",
-  description:
-    "We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.",
-  headline: "Lead Generation Specialist for Online Businesses.",
-  topLine: "Marketing Agency",
-  img: require("../../images/codeimg1.png"),
-  alt: "Image",
-  start: "",
-};
-
 export const homeObjTwo = {
   primary: false,
   lightBg: true,

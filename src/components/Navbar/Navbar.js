@@ -40,16 +40,17 @@ const Navbar = () => {
       <IconContext.Provider value={{ color: "#fff" }}>
         <Nav>
           <NavbarContainer>
-            <NavLogo to="/" onClick={closeMobileMenu}>
+            {/* removed logo for the time being */}
+            {/* <NavLogo to="/" onClick={closeMobileMenu}>
               <NavIcon />
               ULTRA
-            </NavLogo>
+            </NavLogo> */}
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>
-                <NavLinks to="/">Home</NavLinks>
+                <NavLinks to="/">About Me</NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks to="services">Services</NavLinks>
@@ -57,7 +58,8 @@ const Navbar = () => {
               <NavItem>
                 <NavLinks to="/products">Products</NavLinks>
               </NavItem>
-              <NavItemBtn>
+              {/* removed signup button for now */}
+              {/* <NavItemBtn>
                 {button ? (
                   <NavBtnLink to="/sign-up">
                     <Button primary>SIGN UP</Button>
@@ -69,7 +71,7 @@ const Navbar = () => {
                     </Button>
                   </NavBtnLink>
                 )}
-              </NavItemBtn>
+              </NavItemBtn> */}
             </NavMenu>
           </NavbarContainer>
         </Nav>
