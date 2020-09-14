@@ -9,10 +9,10 @@ export const homeObjOne = {
   lightText: true,
   buttonLabel: "Get Started",
   description:
-    "Full Stack Web Developer with a heavy emphasis on Front End Development. Dedicated to learning and improving myself as a whole. Co-workers and peers say that I am hardworking and great at problem solving. Quick learner of new technologies and adaptive personality. ",
+    "Hello! My name is Donald Hawkins. I was born and raised in Arizona (west valley). I have a passion for many things ranging from automotive, science, technology, and more. The common factor in my interest is that they all challenge a person to think about a problem and then solve it. Programming is no different in the sense that there is something I wanna make happen and its up to me to figure out how to make it happen. My main focus is on Front-End Development and I am constantly working on improvement either by using a new framework to help with my efficiency or the use of a technology to make things operate much more smoothly. Thank you for taking the time to visit my page and please contact me with any questions. Now, lets get started, shall we?",
   headline: "Just a boy from the desert.",
-  topLine: "About Me",
-  img: require("../../images/codeimg1.png"),
+  topLine: "",
+  img: require("../../images/running.png"),
   alt: "Image",
   start: "",
   link: "/services",
