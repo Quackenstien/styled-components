@@ -9,10 +9,10 @@ export const homeObjTwo = {
   lightText: false,
   buttonLabel: "Weather DashBoard",
   description:
-    "We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.",
+    "You guessed it! Another weather dashboard done in React.js. Now, I know its your job to judge me on my work (I mean it is a portfolio after all), but this was built to practice the in Fetch API over plain old AJAX calls. The design, well...it leaves something to be desired. ",
   headline: "Yet Another Weather DashBoard.",
   topLine: "",
-  img: require("../../images/codeimg2.png"),
+  img: require("../../images/weather.png"),
   alt: "Image",
   start: "true",
   link: "https://quackenstien.github.io/react-weather-dashboard/",
