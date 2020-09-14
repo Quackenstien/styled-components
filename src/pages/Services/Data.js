@@ -10,12 +10,14 @@ export const homeObjTwo = {
   buttonLabel: "Weather DashBoard",
   description:
     "We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.",
-  headline: "Lead Generation Specialist for Online Businesses.",
-  topLine: "Marketing Agency",
+  headline: "Yet Another Weather DashBoard.",
+  topLine: "",
   img: require("../../images/codeimg2.png"),
   alt: "Image",
   start: "true",
   link: "https://quackenstien.github.io/react-weather-dashboard/",
+  target: "blank",
+  rel: "opener noopener",
 };
 
 export const homeObjThree = {
@@ -33,6 +35,9 @@ export const homeObjThree = {
   img: require("../../images/codeimg3.png"),
   alt: "Image",
   start: "",
+  link: "",
+  target: "blank",
+  rel: "opener noopener",
 };
 
 export const homeObjFour = {
@@ -50,4 +55,7 @@ export const homeObjFour = {
   img: require("../../images/codeimg4.png"),
   alt: "Image",
   start: "true",
+  link: "",
+  target: "blank",
+  rel: "opener noopener",
 };

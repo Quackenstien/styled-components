@@ -15,5 +15,5 @@ export const homeObjOne = {
   img: require("../../images/codeimg1.png"),
   alt: "Image",
   start: "",
-  link: "services",
+  link: "/services",
 };

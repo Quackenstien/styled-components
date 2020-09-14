@@ -28,6 +28,8 @@ const InfoSection = ({
   alt,
   start,
   link,
+  target,
+  rel,
 }) => {
   return (
     <>
@@ -39,11 +41,11 @@ const InfoSection = ({
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                <Link to={link}>
+                <a href={link} target={target} rel={rel}>
                   <Button big fontBig primary={primary}>
                     {buttonLabel}
                   </Button>
-                </Link>
+                </a>
               </TextWrapper>
             </InfoColumn>
             <InfoColumn>
