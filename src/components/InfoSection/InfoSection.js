@@ -21,6 +21,7 @@ const InfoSection = ({
   lightText,
   buttonLabel,
   description,
+  description2,
   headline,
   topLine,
   primary,
@@ -40,7 +41,10 @@ const InfoSection = ({
               <TextWrapper>
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
-                <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
+                <Subtitle lightTextDesc={lightTextDesc}>
+                  {description} <br /> <br />
+                  {description2}
+                </Subtitle>
                 <a href={link} target={target} rel={rel}>
                   <Button big fontBig primary={primary}>
                     {buttonLabel}

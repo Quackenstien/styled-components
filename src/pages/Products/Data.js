@@ -9,6 +9,8 @@ export const homeObjFive = {
   lightText: false,
   buttonLabel: "Linkedin",
   description: "Email: DonaldHawkins422@Gmail.com",
+  description2: "GitHub: https://github.com/Quackenstien",
+
   headline: "Contact Me.",
   topLine: "",
   img: require("../../images/contact.png"),
