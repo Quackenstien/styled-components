@@ -1,3 +1,5 @@
+//Projects Page
+
 export const homeObjTwo = {
   primary: false,
   lightBg: true,
@@ -5,7 +7,7 @@ export const homeObjTwo = {
   lightTopLine: false,
   lightTextDesc: false,
   lightText: false,
-  buttonLabel: "Get Started",
+  buttonLabel: "Weather DashBoard",
   description:
     "We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.",
   headline: "Lead Generation Specialist for Online Businesses.",
@@ -13,6 +15,7 @@ export const homeObjTwo = {
   img: require("../../images/codeimg2.png"),
   alt: "Image",
   start: "true",
+  link: "https://quackenstien.github.io/react-weather-dashboard/",
 };
 
 export const homeObjThree = {
